@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="my_first_application">My first application</string>
+    <string name="mile">mile</string>
+    <string name="km">km</string>
+    <string name="mile_to_km">Mile to Km</string>
+    <string name="km_to_mile">Km to Mile</string>
+    <string name="convert_units">Convert units</string>
 </resources>
