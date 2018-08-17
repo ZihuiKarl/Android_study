@@ -6,4 +6,6 @@
     <string name="mile_to_km">Mile to Km</string>
     <string name="km_to_mile">Km to Mile</string>
     <string name="convert_units">Convert units</string>
+    <string name="play_sound_2">Play sound 2</string>
+    <string name="play_sound_1">Play sound 1</string>
 </resources>

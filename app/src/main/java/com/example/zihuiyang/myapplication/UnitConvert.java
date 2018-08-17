@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
@@ -12,6 +13,9 @@ public class UnitConvert extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.unit_convert_l);
+
+        Toast.makeText(getApplicationContext(),"The Unit conversion app is opened", Toast.LENGTH_LONG).show();
+
         Button buttonConvertKmToMile = findViewById(R.id.button_kmtomile);
         buttonConvertKmToMile.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="my_first_application">第一个软件</string>
+    <string name="mile">英里</string>
+    <string name="km">公里</string>
+    <string name="mile_to_km">英里转公里</string>
+    <string name="km_to_mile">公里转英里</string>
+    <string name="convert_units">单位转换</string>
+</resources>
