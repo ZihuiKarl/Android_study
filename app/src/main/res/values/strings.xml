@@ -8,4 +8,7 @@
     <string name="convert_units">Convert units</string>
     <string name="play_sound_2">Play sound 2</string>
     <string name="play_sound_1">Play sound 1</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
 </resources>
