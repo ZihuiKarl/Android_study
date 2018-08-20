@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final ListView listViewApp = findViewById(R.id.listviewapp);
-        String[] values = new String[]{"Unit conversion", "Testing Layout", "Saving data"};
+        String[] values = new String[]{"Unit conversion", "Testing Layout", "Saving data", "Search"};
         final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, values);
         listViewApp.setAdapter(adapter);
 
@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(i == 2){
                     Intent intent = new Intent("com.example.action.SAVING_DATA");
+                    startActivity(intent);
+                }
+                else if(i == 3){
+                    Intent intent = new Intent("com.example.action.SEARCH_TEXT");
                     startActivity(intent);
                 }
                 else{
