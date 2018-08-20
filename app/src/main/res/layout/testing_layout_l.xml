@@ -8,12 +8,13 @@
     android:weightSum="100">
 
     <LinearLayout
+        android:id="@+id/testlayout_LL"
+        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="30"
         android:background="@android:color/holo_green_light"
-        app:layout_constraintTop_toTopOf="parent"
-        style="?android:attr/buttonBarStyle">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/button_sound1"
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:onClick="playSound_2"
             android:text="@string/play_sound_2" />
+
     </LinearLayout>
 
     <RelativeLayout
@@ -35,5 +37,13 @@
         android:layout_height="0px"
         android:layout_weight="70"
         android:background="@drawable/turtle_image"
-        app:layout_constraintTop_toTopOf="parent"></RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SeekBar
+            android:id="@+id/seekBar_turtle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:max="255" />
+    </RelativeLayout>
 </LinearLayout>
