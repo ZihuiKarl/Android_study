@@ -11,4 +11,7 @@
     <string name="red">Red</string>
     <string name="yellow">Yellow</string>
     <string name="blue">Blue</string>
+    <string name="location">Location</string>
+    <string name="download">Download</string>
+    <string name="web">Web</string>
 </resources>
